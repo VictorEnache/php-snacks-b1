@@ -45,11 +45,11 @@ $partite = [
     
 <?php
 for ($i = 0; $i < count($partite); ++$i){ ?>
-    <?php var_dump($partite[$i]["sq_casa"]) ?>
-    <p><?php echo $partite[$i]['sq_casa']?> - <?php echo $partite[$i]['sq_ospite']?> | <?php echo $partite[$i]['punti_sq_casa']?> - <?php echo $partite[$i]['punti_sq_ospite']?></p>
+    <?php /* var_dump($partite[$i]["sq_casa"])  */?>
+    <p><?php echo $partite[$i]['sq_casa']?> - <?php echo $partite[$i]['sq_ospite']?> | <?php echo $partite[$i]['punti_sq_casa']?> - <?php echo $partite[$i]['punti_sq_ospite'] ?> </p>
     
 <?php } ?>
-?>
+
 
 </body>
 </html>
