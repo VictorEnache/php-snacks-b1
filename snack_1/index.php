@@ -42,7 +42,7 @@ $partite = [
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>ciclo for con graffe</h2>
 <?php
 for ($i = 0; $i < count($partite); ++$i){ ?>
     <?php /* var_dump($partite[$i]["sq_casa"])  */?>
@@ -50,6 +50,7 @@ for ($i = 0; $i < count($partite); ++$i){ ?>
     
 <?php } ?>
 
+<h2>ciclo for senza graffe</h2>
 <?php
 for ($i = 0; $i < count($partite); ++$i) : ?>
     <?php /* var_dump($partite[$i]["sq_casa"])  */?>
