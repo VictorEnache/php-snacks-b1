@@ -61,6 +61,18 @@ $posts = [
     
     <?php foreach($posts as $key => $post) : ?>
         <h2><?= $key ?></h2>
+        <?php foreach($post as $single_post) : ?>
+
+            <?php foreach($single_post as $post_key=>$info) : ?>
+                
+                <ul>
+                    <li><?= $post_key ?> : <?= $info ?></li>
+                </ul>
+            <?php endforeach; ?>    
+
+
+        <?php endforeach; ?>
+
     <?php endforeach; ?>
 </body>
 </html>
