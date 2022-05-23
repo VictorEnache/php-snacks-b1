@@ -63,13 +63,15 @@ $posts = [
         <h2><?= $key ?></h2>
         <?php foreach($post as $single_post) : ?>
 
+            <ul>
             <?php foreach($single_post as $post_key=>$info) : ?>
                 
-                <ul>
+                
                     <li><?= $post_key ?> : <?= $info ?></li>
-                </ul>
+                
+                
             <?php endforeach; ?>    
-
+            </ul>
 
         <?php endforeach; ?>
 
